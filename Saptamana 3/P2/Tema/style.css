@@ -1,0 +1,48 @@
+ul li:nth-child(even){
+    color: green;
+}
+/*ex 1 e) */
+ul li:nth-child(3) a, ul li:nth-child(5) a{
+    color:red;
+}
+/*ex 1 f)*/
+ul li:nth-child(5) a:hover{
+    color:grey;
+}
+
+/* ex2 g) */
+
+ul li:nth-child(2), ul li:nth-child(5) {
+    list-style-type: none;
+}
+
+form input[type=text]:focus{
+
+    color: grey;
+}
+
+form input[placeholder="first name"]:focus{
+    background-color: green;
+}
+
+form input[placeholder="last name"]:focus{
+    background-color: blue;
+}
+
+form input[type="password"]{
+    color: transparent;
+}
+form input[type="email"]::selection{
+    background-color: yellow;
+    color: pink
+    ;
+}
+
+
+
+  
+
+
+
+
+

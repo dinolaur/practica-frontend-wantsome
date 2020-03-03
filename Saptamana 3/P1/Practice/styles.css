@@ -51,3 +51,28 @@ footer::after{
 p::first-letter{
     font-size: 60px;
 }
+
+
+
+ul li:nth-child(even){
+    color: green;
+}
+
+
+ul li:nth-child(3){
+    background-color: blue;
+}
+
+ul li:first-child{
+    border-top: 1px solid green
+}
+
+ul li:last-child{
+    border-bottom: 5px dotted blue;
+}
+
+
+li a:first-child{
+    color:  red;
+}
+    
