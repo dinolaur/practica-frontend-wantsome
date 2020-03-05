@@ -45,3 +45,87 @@
     
     
 }
+
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: static;
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+
+}
+
+body{
+    background-color: lightgrey;
+}
+
+
+nav{
+    height: 140px;
+    width: 120px;
+    border: solid 2px purple;
+    position: relative;
+    background-color: white;
+}
+
+.section1{
+    height: 50px;
+    width: 75%;
+    border: solid 2px yellow;
+    margin-left: 125px;
+    bottom: 140px;
+    position: relative;
+    display: inline-block;
+    background-color: white
+    
+}
+
+.section2{
+    height: 150px;
+    width: 75%;
+    border: solid 2px yellow;
+    margin-left: 125px;
+    bottom: 140px;
+    position: relative;
+    background-color: white
+
+}
+
+.section3{
+    height: 50px;
+    width: 75%;
+    border: solid 2px yellow;
+    margin-left: 125px;
+    bottom: 140px;
+    position: relative;
+    background-color: white
+
+}
+
+footer{
+    height: 100px;
+    width: 85%;
+    border: solid 2px green;
+    position: relative;
+    bottom: 140px;
+
+
+}
