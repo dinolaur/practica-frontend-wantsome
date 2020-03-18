@@ -1,6 +1,7 @@
 .header{
-border: 1px solid #fff;
+border: 1px solid red;
 width: 900px;
 display: flex;
 justify-content: space-around;
+background-color: blueviolet;
 }

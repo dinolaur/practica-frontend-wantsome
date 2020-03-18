@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 500px;
+    grid-template-rows: 325px 275px 1fr;
+    grid-template-areas: "zona1 zona3 big-tiles" "zona2 zona3 big-tiles" "WIDE-ONE WIDE-ONE big-tiles";
+    grid-gap: 10px;
+  }
+  
+  .zona1 { grid-area: zona1;
+    background-color: teal;
+    border: 1px dotted black;
+ }
+  
+  .zona2 { grid-area: zona2;
+    background-color: yellow;
+    border: 1px dotted black;
+ }
+  
+  .zona3 { grid-area: zona3;
+    background-color:green;
+    border: 1px dotted black;
+ }
+  
+  .big-tiles { grid-area: big-tiles;
+    background-color: red;
+    border: 1px dotted black;
+ }
+  
+  .WIDE-ONE { grid-area: WIDE-ONE;
+    background-color:blue;
+    border: 1px dotted black;
+ }

@@ -1,0 +1,22 @@
+@import "mixins";
+@import "nesting";
+@import "variables";
+@import "operators";
+
+body {
+    background: $blue;
+}
+
+.salut{
+    border: $bordura;
+}
+
+.paragraf1{
+    border: $dottedFain;
+    font-family: $fontulet;
+}
+
+.h11{
+    font-family: $gica;
+    border: $gica1;
+}

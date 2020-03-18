@@ -1,0 +1,18 @@
+body {
+  background: #3399ff;
+}
+
+.salut {
+  border: 1px solid red;
+}
+
+.paragraf1 {
+  border: 3px dotted pink;
+  font-family: Helvetica, sans-serif;
+}
+
+.h11 {
+  font-family: fantasy solid green;
+  border: red dotted 5px;
+}
+/*# sourceMappingURL=style.css.map */
